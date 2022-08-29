@@ -1,6 +1,6 @@
 {
   "name": "mace.ui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple UI library using Bootstrap and jQuery",
   "main": "index.js",
   "scripts": {
