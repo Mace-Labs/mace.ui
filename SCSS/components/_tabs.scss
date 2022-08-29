@@ -1,0 +1,25 @@
+﻿.nav-tabs {
+    border-bottom: none;
+
+    .nav-link.active,
+    .nav-link.active:hover {
+        border-bottom: 4px solid $primary;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: $black;
+    }
+
+    .nav-link {
+        border-bottom: 4px solid $gray-200;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: $gray-600;
+    }
+
+    .nav-link:hover {
+        border-bottom: 4px solid $gray-500;
+        color: $black;
+    }
+}
