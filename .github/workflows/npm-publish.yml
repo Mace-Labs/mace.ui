@@ -25,7 +25,9 @@ jobs:
             npm version minor
         - name: push
           run: |
-            echo https://$GITHUB_ACTOR:${{secrets.access_token}}@github.com/$GITHUB_REPOSITORY.git
+            echo $GITHUB_ACTOR
+            echo ${{secrets.access_token}}
+            echo $GITHUB_REPOSITORY.git
             git push https://$GITHUB_ACTOR:${{secrets.access_token}}@github.com/$GITHUB_REPOSITORY.git
 
   build:
