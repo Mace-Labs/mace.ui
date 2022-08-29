@@ -25,7 +25,7 @@ jobs:
             npm version minor
         - name: push
           run: |
-            git push
+            git push https://$GITHUB_TOKEN:$@github.com/$GITHUB_REPOSITORY.git
 
   build:
     needs: increment-version
