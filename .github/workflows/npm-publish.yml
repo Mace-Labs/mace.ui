@@ -16,7 +16,13 @@ jobs:
         - uses: actions/setup-node@v3
           with:
             node-version: 16
-        - run: npm version minor
+        - name: setup git config
+          run: |
+            git config user.name "GitHub Actions"
+            git config user.email "<>"
+        - name: increment minor version
+          run: |
+            npm version minor
 
   build:
     needs: increment-version
