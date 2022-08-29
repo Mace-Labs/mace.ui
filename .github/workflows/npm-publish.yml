@@ -18,15 +18,15 @@ jobs:
             node-version: 16
         - name: setup git config
           run: |
-            git config user.name github-actions
-            git config user.email github-actions@github.com
+            git config user.name "$GITHUB_ACTOR"
+            git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
         - name: increment minor version
           run: |
             npm version minor
         - name: push
           run: |
             git status
-            git push
+            git push -v
 
   build:
     needs: increment-version
