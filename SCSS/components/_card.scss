@@ -1,0 +1,134 @@
+﻿.card {
+    border: 1px solid $gray-100;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.05);
+
+    p, h1, h2, h3, h4, h5 {
+        color: $gray-900;
+    }
+
+    i {
+        font-size: 64px;
+        line-height: 64px;
+        color: $primary;
+        margin-bottom: 18px;
+    }
+
+    .card-body {
+        padding: 36px 24px;
+
+        .notification-header {
+            .notification-date {
+                float: left;
+                display: inline;
+            }
+
+            .notification-category {
+                float: right;
+                display: inline;
+            }
+        }
+
+        .color-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            border: 2px solid $gray-600;
+
+            &.primary {
+                background: $primary;
+            }
+
+            &.secondary {
+                background: $secondary;
+            }
+
+            &.success {
+                background: $success;
+            }
+
+            &.info {
+                background: $info;
+            }
+
+            &.warning {
+                background: $warning;
+            }
+
+            &.danger {
+                background: $danger;
+            }
+
+            &.light {
+                background: $light;
+            }
+
+            &.dark {
+                background: $dark;
+            }
+
+            &.blue {
+                background: $blue;
+            }
+
+            &.indigo {
+                background: $indigo;
+            }
+
+            &.purple {
+                background: $purple;
+            }
+
+            &.pink {
+                background: $pink;
+            }
+
+            &.red {
+                background: $red;
+            }
+
+            &.orange {
+                background: $orange;
+            }
+
+            &.yellow {
+                background: $yellow;
+            }
+
+            &.green {
+                background: $green;
+            }
+
+            &.teal {
+                background: $teal;
+            }
+
+            &.cyan {
+                background: $cyan;
+            }
+
+            &.black {
+                background: $black;
+            }
+
+            &.white {
+                background: $white;
+            }
+        }
+    }
+}
+
+.link-card {
+    text-decoration: none;
+
+    &:hover {
+        .card {
+            box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.1);
+
+            h1, h2, h3, h4, h5 {
+                text-decoration: underline;
+                color: $primary;
+            }
+        }
+    }
+}
