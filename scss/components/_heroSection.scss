@@ -1,0 +1,21 @@
+﻿.hero {
+    &-dark {
+        background-color: $dark;
+
+        h1, h2, h3, h4, h5, p {
+            color: $white;
+        }
+    }
+
+    &-primary {
+        background-color: $primary;
+    }
+
+    &-secondary {
+        background-color: $secondary;
+    }
+}
+
+.hero-image {
+    max-width: 100%;
+}

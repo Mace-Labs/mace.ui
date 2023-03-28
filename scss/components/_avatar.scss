@@ -1,0 +1,50 @@
+﻿//avatar
+.avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border: 2px solid $secondary;
+    text-align: center;
+    vertical-align: middle;
+    background: $primary;
+    color: $white;
+    font-size: 32px;
+    font-family: Arial;
+
+    &-xl {
+        width: 139px;
+        height: 139px;
+        font-size: 67px;
+    }
+
+    &-lg {
+        width: 96px;
+        height: 96px;
+        font-size: 54px;
+    }
+
+    &-md {
+        width: 72px;
+        height: 72px;
+        font-size: 32px;
+    }
+
+    &-sm {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    &-xs {
+        width: 36px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

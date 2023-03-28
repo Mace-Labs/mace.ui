@@ -1,0 +1,9 @@
+﻿// unclassed HTML elements, i.e. underlines for anchors on hover
+pre code {
+    &:before {
+        display: block;
+        text-transform: uppercase;
+        content: attr(data-lang);
+        color: $code-lang-color;
+    }
+}

@@ -1,0 +1,84 @@
+﻿//background colors
+.bg-blue {
+    background: $blue !important;
+}
+
+.bg-indigo {
+    background: $indigo !important;
+}
+
+.bg-purple {
+    background: $purple !important;
+}
+
+.bg-pink {
+    background: $pink !important;
+}
+
+.bg-red {
+    background: $red !important;
+}
+
+.bg-orange {
+    background: $orange !important;
+}
+
+.bg-yellow {
+    background: $yellow !important;
+}
+
+.bg-green {
+    background: $green !important;
+}
+
+.bg-teal {
+    background: $teal !important;
+}
+
+.bg-cyan {
+    background: $cyan !important;
+}
+
+.bg-black {
+    background: $black !important;
+}
+
+.bg-white {
+    background: $white !important;
+    color: $black !important;
+}
+
+//Hide
+.hide {
+    display: none !important;
+}
+
+@include media-breakpoint-down(sm) {
+    .hide-sm {
+        display: none !important;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .hide-md {
+        display: none !important;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .hide-lg {
+        display: none !important;
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .hide-xl {
+        display: none !important;
+    }
+}
+
+@include media-breakpoint-down(xxl) {
+    .hide-xxl {
+        display: none !important;
+    }
+}

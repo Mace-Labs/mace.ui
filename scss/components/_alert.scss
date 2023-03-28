@@ -1,0 +1,38 @@
+﻿.alert {
+    display: flex;
+
+    & p {
+        margin-bottom: 0;
+    }
+
+    & i {
+        margin-right: 16px;
+        margin-top: 6px;
+        display: inline-block;
+        width: 16px;
+    }
+
+    &.alert-success {
+        i {
+            color: $green-500;
+        }
+    }
+
+    &.alert-warning {
+        i {
+            color: $yellow-500;
+        }
+    }
+
+    &.alert-danger {
+        i {
+            color: $red-500;
+        }
+    }
+
+    &.alert-info {
+        i {
+            color: $cyan-500;
+        }
+    }
+}
