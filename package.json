@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Mace-Labs/mace.ui#readme",
   "devDependencies": {
-    "semantic-release": "^21.0.0"
+    "semantic-release": "21.x"
   },
   "release": {
     "branches": ["main"]
