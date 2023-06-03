@@ -1,6 +1,9 @@
 # Github Action Workflows
 .github/
 
+# assets and examples
+assets/
+
 # Logs
 logs
 *.log
