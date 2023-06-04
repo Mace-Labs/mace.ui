@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "semantic-release": "semantic-release",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/"
+    "css-compile": "sass --style=compressed scss:assets/css"
   },
   "repository": {
     "type": "git",
@@ -21,16 +21,16 @@
   },
   "homepage": "https://github.com/Mace-Labs/mace.ui#readme",
   "dependencies": {
-    "bootstrap": "5.x",
-    "font-awesome": "4.x",
-    "highlight.js": "11.x",
-    "jquery": "3.x",
-    "jquery-validation": "1.x",
-    "jquery-validation-unobtrusive": "4.x"
+    "bootstrap": "^5.3.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "highlight.js": "^11.8.0",
+    "jquery": "^3.2.1",
+    "jquery-validation": "^1.19.5",
+    "jquery-validation-unobtrusive": "^4.0.0"
   },
   "devDependencies": {
-    "semantic-release": "21.x",
-    "node-sass": "9.x"
+    "semantic-release": "^21.0.3",
+    "sass": "^1.62.1"
   },
   "release": {
     "branches": ["main"]
